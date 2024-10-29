@@ -1,0 +1,131 @@
+@import 'reset.css';
+@import 'fonts.css';
+@import 'layout.css';
+
+.black {
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+.bold { 
+    font-weight: 700;
+    white-space: nowrap; 
+}  
+
+.light {
+    font-weight: 100;
+    white-space: nowrap;
+}
+
+.regular {
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.h-style {
+    font-size: 40px;
+    color: #FF6B00;
+    font-weight: 700;
+    white-space: nowrap; 
+}
+
+.background {
+    background-color: black;
+}
+.pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.rectangle_border-r, .rectangle_border-l{
+    width: 520px;
+    height: 13px;
+    border-radius: 50px;
+}
+
+.rectangle_border-r {
+    background: linear-gradient(to right, #0500FF, #FF6900);
+}
+
+.rectangle_border-l {
+    background: linear-gradient(to left, #0500FF, #FF6900);
+}
+
+.p1 {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.p2 {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.p3 {
+    color: rgb(160, 160, 160);
+    font-weight: 400;
+    font-size: 14px;
+    white-space: nowrap;
+    margin: 8px 0px;
+}
+
+.p4 {
+    color: rgb(233, 233, 233);
+    font-weight: 400;
+    font-size: 16px;
+    white-space: nowrap;
+    margin: 4px 0px;
+}
+
+.white {
+    color: white;
+}
+
+.black-color {
+    color: black;
+}
+
+.track-card {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 409px;
+    height: 207px;
+    background-color: #FFFFFF;
+    border-radius: 17px;
+}
+
+.ok-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 41px;
+    border-radius: 21px;
+    margin: 16px auto  35px auto;
+}
+
+.footer-track-cards {
+    display: grid;
+    height: 586px;
+    grid-template: 207px 207px / repeat(3, 409px);
+    gap: 75px 52px;
+}
+
+.item1 {
+    margin-top: 44px;
+}
+
+.item2 {
+    margin-top: 95px;
+}
